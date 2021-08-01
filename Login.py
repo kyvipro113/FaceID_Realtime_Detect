@@ -1,4 +1,4 @@
-from UiLogin import Ui_Login
+﻿from UiLogin import Ui_Login
 from MainWindow import MainWindow
 from MainWindowLoginByFaceID import MainWindowLoginByFaceID
 from SQLConnection import SQLConnection
@@ -19,7 +19,7 @@ class Login(QWidget, Ui_Login):
         self.btExit.clicked.connect(self.exit)
         self.btLoginFaceID.clicked.connect(self.loginByFaceID)
 
-    def alter(self,title, message):
+    def alter(self, title, message):
         msgBox = QtWidgets.QMessageBox()
         msgBox.setIcon(QtWidgets.QMessageBox.Information)
         msgBox.setWindowTitle(title)
