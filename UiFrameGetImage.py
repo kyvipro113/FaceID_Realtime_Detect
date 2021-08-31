@@ -100,7 +100,7 @@ class Ui_frameGetImage(object):
         self.lbImg = QtWidgets.QLabel(frameGetImage)
         self.lbImg.setGeometry(QtCore.QRect(20, 30, 640, 431))
         self.lbImg.setText("")
-        self.lbImg.setPixmap(QtGui.QPixmap("../Face Recognition Ver 1.0/Logo/imgNone.png"))
+        self.lbImg.setPixmap(QtGui.QPixmap("../FaceID_Realtime_Detect/Logo/imgNone.png"))
         self.lbImg.setObjectName("lbImg")
         self.horizontalLayoutWidget = QtWidgets.QWidget(frameGetImage)
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(720, 470, 431, 51))

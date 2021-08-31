@@ -1,0 +1,11 @@
+# pip install -r requirements.txt
+
+# base -----------------------------
+opencv-python
+matplotlib>=3.2.2
+numpy>=1.18.5
+opencv-contrib-python
+Pillow
+PyYAML
+PyQT5
+pyodbc

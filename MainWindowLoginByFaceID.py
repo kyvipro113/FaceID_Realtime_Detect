@@ -12,6 +12,7 @@ import sys
 import os
 import time
 
+tCount = 0
 flag = False
 name = ""
 
@@ -94,8 +95,11 @@ class MainWindowLoginByFaceID(QMainWindow, Ui_MainWindowLoginByFaceID):
         self.lbImg.setPixmap(QPixmap.fromImage(image))
         global name
         global flag
-        self.mainWindow = MainWindow(name)
+        global tCount
         if(name != ""):
+            tCount += 1
+        if(tCount == 100):
+            self.mainWindow = MainWindow(name)
             self.mainWindow.show()
             flag = False
             self.threadRecognition.exit()

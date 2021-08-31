@@ -27,7 +27,7 @@ class Ui_frameRecognition(object):
         self.lbImg = QtWidgets.QLabel(frameRecognition)
         self.lbImg.setGeometry(QtCore.QRect(270, 50, 640, 410))
         self.lbImg.setText("")
-        self.lbImg.setPixmap(QtGui.QPixmap("../Face Recognition Ver 1.0/Logo/imgNone.png"))
+        self.lbImg.setPixmap(QtGui.QPixmap("../FaceID_Realtime_Detect/Logo/imgNone.png"))
         self.lbImg.setObjectName("lbImg")
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(frameRecognition)
         self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(340, 470, 111, 51))
